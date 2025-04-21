@@ -1,0 +1,246 @@
+/* Substituição APENAS da parte do grid por flexbox */
+.grade-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 2.1875rem;
+  margin-bottom: 1.875rem;
+}
+
+/* Mantendo todos os outros estilos EXATAMENTE como estão */
+.container-item {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border: 0.25rem solid #e0e0e0;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.05);
+  padding: -20%;
+  text-align: center;
+  width: 20%;
+  height: 7.5rem;
+  left: -25%;
+  top: 5.3125rem;
+}
+
+.container-item1 {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border: 0.25rem solid #e0e0e0;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.05);
+  padding: -20%;
+  text-align: center;
+  width: 20%;
+  height: 7.5rem;
+  left: 36.4%;
+  bottom: 6.25rem;
+}
+
+.container-item2 {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border: 0.25rem solid #e0e0e0;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.05);
+  padding: -20%;
+  text-align: center;
+  width: 20%;
+  height: 7.5rem;
+  margin-left: 16%;
+  left: 40.5%;
+  bottom: 13.75rem;
+}
+
+.container-item3 {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border: 0.25rem solid #e0e0e0;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.05);
+  padding: -20%;
+  text-align: center;
+  width: 20%;
+  height: 7.5rem;
+  margin-left: 16%;
+  left: 61%;
+  bottom: 21.25rem;
+}
+
+/* O restante do seu CSS permanece EXATAMENTE IGUAL */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*header*/
+header {
+  background-color: #eed9c4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  font-size: 2rem;
+  border-bottom: 0.0625rem solid #7b3f00;
+  padding-bottom: 0.0625rem;
+}
+
+.img_logo {
+  height: 7rem;
+}
+
+.img_nav_login {
+  height: 3.75rem;
+}
+
+.nav_area_user {
+  display: flex;
+  align-items: baseline;
+  padding-right: 0.6rem;
+}
+
+.banner {
+  width: 100%;
+  margin-right: 1;
+}
+
+.banner-img {
+  width: 71.875rem;
+  height: 6.25rem;
+  object-fit: cover;
+  opacity: 0.6;
+  transform: translateX(12.5rem);
+  border-bottom: 0.0625rem solid #000;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 48rem) {
+  .banner-img {
+      height: 9.375rem;
+      object-fit: cover;
+  }
+}
+
+.welcome-message h1 {
+  color: #000000;
+  margin-left: 34.375rem;
+  margin-bottom: 0.625rem;
+  font-size: 1.5rem;
+}
+
+.welcome-message p {
+  color: #000000;
+  font-size: 1.1em;
+  margin-left: 36.25rem;
+}
+
+/* botoes dos eventos */
+.botao-container {
+  display: inline-block;
+  background-color: #eed9c4;
+  color: white;
+  padding: 0.5rem 0.9375rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  width: 5.625rem;
+}
+
+/* botao solicitar evento*/
+.botao-container2 {
+  z-index: 3;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #7b3f00;
+  padding: 0.5rem 0.9375rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  width: 8.25rem;
+  margin-left: 87%;
+  margin-top: -19%;
+}
+
+/* menu principal */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebars {
+  position: static;
+  width: 12.5rem;
+  top: auto 0.125rem;
+  background-color: #eed9c4;
+  padding: 5rem;
+  transition: transform 0.3s ease;
+  border-right: 0.0625rem solid #7b3f00;
+  height: 100%;
+  margin-top: -32.44rem;
+}
+
+.sidebars.active {
+  display: block;
+}
+
+.sidebars h2 {
+  margin-top: -3.125rem;
+  color: #333;
+  font-size: 1.2em;
+  border-bottom: 0.0625rem solid #ccc;
+  padding-bottom: 0.625rem;
+}
+
+.menu-item {
+  padding: 1.875rem 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+  display: block;
+}
+
+.menu-item a:hover {
+  color: #7b3f00;
+}
+
+.content {
+  padding: 1.25rem;
+  flex-grow: 1;
+}
+
+/* Container principal */
+.container1 {
+  position: relative;
+  background-color: #eed9c4;
+  display: flex;
+  padding: 21rem 1.6rem 1.6rem 1.5rem;
+  border-radius: 1.5rem;
+  width: fit-content;
+  bottom: 25.625rem;
+  transform: translateX(13.75rem);
+  width: 68.75rem;
+  border-top: 0.125rem solid #b97e0f;
+  border-right: 0.125rem solid #b97e0f;
+  border-bottom: 0.125rem solid #b97e0f;
+  border-left: 0.125rem solid #b97e0f;
+}
