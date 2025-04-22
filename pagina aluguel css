@@ -7,8 +7,64 @@
   padding: 2.1875rem;
   margin-bottom: 1.875rem;
 }
+.imagem-condominio {
+  position: relative;
+  width: 30.75rem;   
+  height: 20.5rem;    
+  object-fit: cover;
+  transform: translateX(0.9rem) translateY(-0.6rem);
 
-/* Mantendo todos os outros estilos EXATAMENTE como estão */
+
+}
+
+.message-text {
+  
+  display: flex;
+  font-size: 0.9rem;
+  text-align: right;
+  gap: 1;
+  left: 40rem;
+  margin-right: 10rem;
+  margin-left: 25rem;
+  margin-top: 2.5rem;
+}
+
+
+.imagem-redonda1 {
+  position: relative;
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+  transform: translateX(18.5rem) translateX(-4.0rem) translateY(9.6rem); /* Valor positivo = baixo */
+}
+.imagem-redonda2 {
+  position: relative;
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+  transform: translateX(22.5rem) translateX(-5.0rem)translateY(9.6rem); /* Valor positivo = baixo */
+}
+.imagem-redonda3 {
+  position: relative;
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+  transform: translateX(25.5rem) translateX(-6.0rem)translateY(9.6rem);
+}
+.imagem-redonda4 {
+  position: relative;
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+  transform: translateX(50.5rem) translateX(-28.5rem) /* parad direita */ translateY(13.2rem) translateY(-3.5rem); /* Valor positivo para baixo e negativo para cima */ 
+
+}
+
+/* caixas de alguel 
 .container-item {
   position: relative;
   z-index: 2;
@@ -16,12 +72,13 @@
   border: 0.25rem solid #e0e0e0;
   border-radius: 1.25rem;
   box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.05);
-  padding: -20%;
+  padding: -10%;
   text-align: center;
-  width: 20%;
-  height: 7.5rem;
+  width: 15%;
+  height: 15%;
   left: -25%;
   top: 5.3125rem;
+  border-radius: 50%;
 }
 
 .container-item1 {
@@ -70,7 +127,7 @@
   left: 61%;
   bottom: 21.25rem;
 }
-
+*/
 /* O restante do seu CSS permanece EXATAMENTE IGUAL */
 * {
   box-sizing: border-box;
@@ -83,6 +140,7 @@
 
 /*header*/
 header {
+  z-index: 0;
   background-color: #eed9c4;
   display: flex;
   align-items: center;
@@ -139,7 +197,8 @@ header {
 .welcome-message p {
   color: #000000;
   font-size: 1.1em;
-  margin-left: 36.25rem;
+  margin-left: 39.0rem;
+  margin-top: -0.875rem;
 }
 
 /* botoes dos eventos */
@@ -183,7 +242,7 @@ body {
   display: flex;
   flex: 1;
 }
-
+/* menu principal */
 .sidebars {
   position: static;
   width: 12.5rem;
@@ -193,7 +252,7 @@ body {
   transition: transform 0.3s ease;
   border-right: 0.0625rem solid #7b3f00;
   height: 100%;
-  margin-top: -32.44rem;
+  margin-top: -45.04rem;
 }
 
 .sidebars.active {
@@ -228,19 +287,38 @@ body {
   flex-grow: 1;
 }
 
-/* Container principal */
+/* Container principal (PAI)*/
 .container1 {
+  z-index: -1;
   position: relative;
-  background-color: #eed9c4;
+  background-color: #ffffff;
   display: flex;
   padding: 21rem 1.6rem 1.6rem 1.5rem;
   border-radius: 1.5rem;
   width: fit-content;
-  bottom: 25.625rem;
-  transform: translateX(13.75rem);
+  bottom: 10.625rem;
+  transform: translateX(9.75rem);
   width: 68.75rem;
-  border-top: 0.125rem solid #b97e0f;
-  border-right: 0.125rem solid #b97e0f;
-  border-bottom: 0.125rem solid #b97e0f;
-  border-left: 0.125rem solid #b97e0f;
+  border-top: 0.125rem solid #7b3f00;
+  border-right: 0.125rem solid #7b3f00;
+  border-bottom: 0.125rem solid #7b3f00;
+  border-left: 0.125rem solid #7b3f00;
+}
+.content{
+
+  position: relative;
+  border-bottom: 0.025rem solid #000000;
+  top: -14.525rem;
+
+
+
+}
+.content2{
+
+  position: relative;
+  border-bottom: 0.025rem solid #000000;
+  top: 20.525rem;
+
+
+
 }
