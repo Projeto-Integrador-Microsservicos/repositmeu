@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
-    <link href="../style/style.menuPrincipal_ADM.css" rel="stylesheet">
+    <link href="../style/style_pagina_aluguel.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,10 +28,42 @@
         
         <div class="welcome-message">
             <h1>Bem-vindo ao Portal do Condomínio</h1>
-            <p>Aqui você pode ficar por dentro de todos os eventos.</p>
+            <p>Aluguel das Áreas de Lazer</p>
         </div>
+     <div class="message-text"
+       a> Condômino, que tal aproveitar nossas áreas de lazer?
+
+       Você pode alugar o espaço gourmet para churrascos, o salão de festas para comemorações as quadras para esportes e até mesmo a Academia para um treino Privativo. Tudo pronto para seu momento de diversão!
+       
+       Reserve na administração e transforme seus eventos em experiências incríveis sem sair de casa. Seu condomínio oferece lazer e conveniência pra você.</a>
+       
+        <img src="https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22f495ccf6342d846986b8d0904ae356.webp" alt="Foto predio" class="imagem-condominio">
+
+
+
+
+     </div>
+     
+     
+     
+     
+     
+     
+     
+        <div>
+        <img src="https://contemplamaquinas.com.br/wp-content/uploads/2018/05/img45.jpg" alt="foto 
+        redonda" 
+        class="imagem-redonda1">
+        <img src="https://contemplamaquinas.com.br/wp-content/uploads/2018/05/img45.jpg" alt="foto redonda" class="imagem-redonda2">
+        <img src="https://contemplamaquinas.com.br/wp-content/uploads/2018/05/img45.jpg" alt="foto redonda" class="imagem-redonda3">
+        <img src="https://contemplamaquinas.com.br/wp-content/uploads/2018/05/img45.jpg" alt="foto redonda" class="imagem-redonda4">
+     </div>
+        
+        
+        <!--
+        
         <div class="grade-containers">
-            <!-- Container 1 -->
+             Container 1 
             <div class="container-item">
                
                 <h3>Eventos</h3>
@@ -40,7 +72,7 @@
             </div>   
         </div>
         </div>
-         <!-- Container 2 (novo) -->
+          Container 2 (novo)
     <div class="container-item1">
         
         <h3>Eventos</h3>
@@ -48,7 +80,7 @@
         <a href="#" class="botao-container">Participar </a>
     </div>
     
-    <!-- Container 3 (novo) -->
+     Container 3 (novo) 
     <div class="container-item2">
         
         <h3>Eventos</h3>
@@ -57,7 +89,7 @@
              </a>
     </div>
     
-    <!-- Container 4 (novo) -->
+     Container 4 (novo) 
     <div class="container-item3">
        
         <h3>Eventos</h3>
@@ -66,7 +98,7 @@
     
     </div>
     <a href="#" class="botao-container2" id="botao-container22"> Solicitar Evento </a>
-
+-->
  </div>
   </div>
   </div>
@@ -88,14 +120,14 @@
         </div>
     </div>
 
-     
-
-
-
         <div class="content">
             <!--conteúdo-->
+        
         </div>
-    
+        <div class="content2">
+            <!--conteúdo-->
+        
+        </div>
     <!--container-->
 <div class="container1">
     </div>
