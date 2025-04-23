@@ -1,4 +1,4 @@
-/* Substituição APENAS da parte do grid por flexbox */
+
 .grade-containers {
   display: flex;
   flex-wrap: wrap;
@@ -140,7 +140,7 @@
 
 /*header*/
 header {
-  z-index: 0;
+  z-index: 1;
   background-color: #eed9c4;
   display: flex;
   align-items: center;
@@ -171,7 +171,7 @@ header {
 }
 
 .banner-img {
-  width: 71.875rem;
+  width: 86.875rem;
   height: 6.25rem;
   object-fit: cover;
   opacity: 0.6;
@@ -242,29 +242,29 @@ body {
   display: flex;
   flex: 1;
 }
-/* menu principal */
+
 .sidebars {
-  position: static;
+  z-index: 0;
+  position: relative;
   width: 12.5rem;
-  top: auto 0.125rem;
-  background-color: #eed9c4;
-  padding: 5rem;
+    background-color: #eed9c4;
+  padding: 6.6rem;
   transition: transform 0.3s ease;
   border-right: 0.0625rem solid #7b3f00;
   height: 100%;
-  margin-top: -45.04rem;
+  top: -45.901rem;
 }
 
-.sidebars.active {
-  display: block;
-}
+
 
 .sidebars h2 {
   margin-top: -3.125rem;
   color: #333;
-  font-size: 1.2em;
+  position: relative;
+  font-size: 1.2rem;
   border-bottom: 0.0625rem solid #ccc;
   padding-bottom: 0.625rem;
+  right: 1.0rem;
 }
 
 .menu-item {
@@ -275,7 +275,10 @@ body {
   text-decoration: none;
   color: #333;
   transition: color 0.3s;
-  display: block;
+  position: relative;
+  font-size: 1.1rem;
+  right: 3.6rem;
+  white-space: nowrap;
 }
 
 .menu-item a:hover {
@@ -296,9 +299,9 @@ body {
   padding: 21rem 1.6rem 1.6rem 1.5rem;
   border-radius: 1.5rem;
   width: fit-content;
-  bottom: 10.625rem;
+  bottom: 42.625rem;
   transform: translateX(9.75rem);
-  width: 68.75rem;
+  width: 80.75rem;
   border-top: 0.125rem solid #7b3f00;
   border-right: 0.125rem solid #7b3f00;
   border-bottom: 0.125rem solid #7b3f00;
@@ -308,7 +311,7 @@ body {
 
   position: relative;
   border-bottom: 0.025rem solid #000000;
-  top: -14.525rem;
+  top: -48.425rem;
 
 
 
